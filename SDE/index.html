@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Survey</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container" id="welcome-container">
+        <h1>Customer Survey</h1>
+        <button id="strt" onclick="startSurvey()">Start Survey</button>
+    </div>
+
+    <div id="survey-container" class="container">
+        <h2 id="question-text"></h2>
+        <div id="question-number"></div>
+        <div id="answers-container"></div>
+        <button class="prev" onclick="prevQuestion()">Prev</button>
+        <button class="next" onclick="nextQuestion()">Next</button>
+        <button class="sub" onclick="submitSurvey()">Submit</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

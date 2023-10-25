@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 10;
+    padding: 10;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+    border-radius: 20px;
+}
+#strt {
+    padding: 10px;
+    background-color: orangered;
+    border-radius: 5px;
+}
+
+#survey-container {
+    display: none;
+    
+}
+.prev {
+    margin-top: 20px;
+    background-color: blue;
+}
+.next {
+    background-color: rgb(234, 10, 129);
+}
+.sub{
+    background-color: green;
+}
